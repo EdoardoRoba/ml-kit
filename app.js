@@ -42,6 +42,6 @@ const corsOptions = {
 app.use(cors(corsOptions))
 
 
-app.get('/sayHello', (req, res) => {
+app.get('/api/sayHello', (req, res) => {
     res.send("hello world!");
 })
